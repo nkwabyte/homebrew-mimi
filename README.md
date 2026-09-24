@@ -5,7 +5,14 @@ Official [Homebrew](https://brew.sh) tap for **[mimi](https://github.com/nkwabyt
 ## Installation
 
 ```bash
-brew install nkwabyte/mimi
+brew install nkwabyte/mimi/mimi
+```
+
+Or tap first, then install:
+
+```bash
+brew tap nkwabyte/mimi
+brew install mimi
 ```
 
 ## Update
