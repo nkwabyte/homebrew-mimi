@@ -1,16 +1,31 @@
-# homebrew-tap
+# Homebrew Mimi
 
-Official [Homebrew](https://brew.sh) tap for [NkwaByte](https://github.com/nkwabyte) developer tools.
+Official [Homebrew](https://brew.sh) tap for **[mimi](https://github.com/nkwabyte/mimi)** — the interactive macOS junk and developer cache cleaner.
 
 ## Installation
 
 ```bash
-brew install nkwabyte/tap/<formula>
+brew install nkwabyte/mimi
 ```
 
-## Available Formulas
+## Update
 
-- **[mimi](https://github.com/nkwabyte/mimi)**: macOS junk and developer cache cleaner (Apple Silicon safe, Xcode/simulator aware)
-  ```bash
-  brew install nkwabyte/tap/mimi
-  ```
+```bash
+brew update
+brew upgrade mimi
+```
+
+## Usage
+
+```bash
+# Scan only (preview reclaimable space)
+mimi
+
+# Interactive cleaning
+mimi --clean
+
+# Safe automated cleaning
+mimi --clean --yes
+```
+
+For full documentation and advanced options, see the main [mimi repository](https://github.com/nkwabyte/mimi).
