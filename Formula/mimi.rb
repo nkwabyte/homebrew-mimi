@@ -1,8 +1,8 @@
 class Mimi < Formula
   desc "macOS junk and developer cache cleaner (Xcode/simulator aware)"
   homepage "https://github.com/nkwabyte/mimi"
-  url "https://github.com/nkwabyte/mimi/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "a18bb821c5aca64664f76b02b34f8e74115cbae4df7c21eadb7cfef8d89dd5ca"
+  url "https://github.com/nkwabyte/mimi/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "84067ed84e9e4bcbd21c73457bc1e7595f0442f5bac54ed21af0aaf9c25dcc02"
   license "MIT"
 
   def install
